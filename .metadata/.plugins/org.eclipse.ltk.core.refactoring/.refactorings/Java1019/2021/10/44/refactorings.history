@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="パッケージ &apos;java1019&apos; を &apos;Lesson11/src&apos; に移動&#x0D;&#x0A;- 元のプロジェクト: &apos;Java1019&apos;&#x0D;&#x0A;- 宛先要素: &apos;Lesson11/src&apos;&#x0D;&#x0A;- オリジナル要素: &apos;Java1019/src/java1019&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="パッケージを移動" destination="=Lesson11/src" element1="/src&lt;java1019" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1635149501232" version="1.0"/>
+</session>

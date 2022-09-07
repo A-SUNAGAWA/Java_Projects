@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+    <category expanded="true" name="カテゴリーなし">
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="App"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="BookApp"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="ChekinRace"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="FreeZone1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="FreeZone2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Gatya"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="GatyaApp"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Janken"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="ListShuffle"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (10)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (11)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (12)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (13)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (14)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (15)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (16)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (17)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (18)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (19)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (2)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (20)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (21)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (3)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (4)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (5)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (6)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (7)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (8)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main (9)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main15_1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (2)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (3)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (4)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (5)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (6)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main2 (7)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main3 (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main3 (2)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main3 (3)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main3 (4)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main4"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main4 (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main4 (2)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main5"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main5 (1)"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main6"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main8"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Main9"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="MapRensyu"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Monty"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Monty2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="MyCalendar"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="MyCalendar2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="PCApp"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Q1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu16"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu17_1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu17_2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu17_3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu3_1"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Rensyu3_2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="RensyuMap"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="RensyuMap2"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="RensyuMap3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="Renyu3"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="RimModStringTrance"/>
+        <launchConfiguration bookmark="false" defaultLaunchMode="run" name="SUMapp"/>
+    </category>
+</runner>
