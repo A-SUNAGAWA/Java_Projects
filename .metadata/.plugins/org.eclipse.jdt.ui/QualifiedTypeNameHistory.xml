@@ -19,4 +19,6 @@
     <fullyQualifiedTypeName name="java.awt.Polygon"/>
     <fullyQualifiedTypeName name="java.awt.Graphics2D"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="lesson03.Main"/>
+    <fullyQualifiedTypeName name="lesson03.Main.chose"/>
 </qualifiedTypeNameHistroy>
