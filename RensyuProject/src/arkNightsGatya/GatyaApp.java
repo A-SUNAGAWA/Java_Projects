@@ -3,7 +3,7 @@ package arkNightsGatya;
 public class GatyaApp {
 
 	public static void gatya() {
-		Rare6_Gentei r6 = new Rare6_Gentei();
+		Rare6_Gentei r6 = new Rare6_Gentei("限定","ピックアップ");
 		int per = new java.util.Random().nextInt(100);
 		if(per > 40) {
 			if(per > 90) {
@@ -21,10 +21,10 @@ public class GatyaApp {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("アクナイざっくりガチャシミュ");
+		System.out.println("ざっくりガチャシミュ");
 		int i = 0;
 		while(true) {
-			if(i == 300) {
+			if(i >= 300) {
 				System.out.println("天井に到達しました");
 				return;
 			}

@@ -15699,3 +15699,417 @@ org.eclipse.core.runtime.AssertionFailedException: assertion failed:
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2022-09-09 15:58:26.636 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.5
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2022-09-09 15:58:36.473
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-09 15:58:36.473
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31b4c003,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74214ac3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:43.495
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:43.496
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@51edc97d[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=1031)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:43.506
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:43.680
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2022-09-09 15:58:45.815
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-09 15:58:45.816
+!MESSAGE CTRL+- の競合が発生しました:
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27879b4e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@646599c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@153e2f2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-09 15:58:45.816
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,サーバーで実行,
+		サーバー上の現在の選択を実行,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4457e347,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,RAP アプリケーションの実行,
+		RAP アプリケーションの実行,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f914d68,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-09-09 15:58:45.816
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,サーバーでデバッグ,
+		サーバー上の現在の選択をデバッグ,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@177244f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,RAP アプリケーションのデバッグ,
+		RAP アプリケーションのデバッグ,
+		Category(org.eclipse.debug.ui.category.run,実行/デバッグ,コマンド実行/デバッグのカテゴリー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@73515663,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:54.956
+!MESSAGE Boot LS startup time from start to initialized: 11032ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.015
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jPWqhIoPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.031
+!MESSAGE subscribing to classpath changes: sts4.classpath.jPWqhIoP isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.036
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.040
+!MESSAGE subsribers = {sts4.classpath.jPWqhIoP=クラスパス通知の送信(89)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.041
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.042
+!MESSAGE project Lesson20220906 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.043
+!MESSAGE project RensyuProject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.044
+!MESSAGE Preparing classpath changed notification Lesson20220906
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.045
+!MESSAGE project AnimalPlanet ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.046
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.046
+!MESSAGE project Java1019 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.047
+!MESSAGE project Java1021 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.048
+!MESSAGE project KillingTime ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.049
+!MESSAGE project Lesson11 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.050
+!MESSAGE project Lesson12 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.051
+!MESSAGE project Lesson13 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.051
+!MESSAGE project Lesson14 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.052
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.053
+!MESSAGE project Lesson15 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.054
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson20220906 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.056
+!MESSAGE project Lesson16 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.056
+!MESSAGE Preparing classpath changed notification RensyuProject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.056
+!MESSAGE project Lesson17 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.057
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.057
+!MESSAGE project Lesson18 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.058
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.059
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.099
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP RensyuProject false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.100
+!MESSAGE Preparing classpath changed notification AnimalPlanet
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.102
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.104
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.105
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP AnimalPlanet false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.106
+!MESSAGE Preparing classpath changed notification Java1019
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.106
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jPWqhIoP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.107
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.108
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.110
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Java1019 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.111
+!MESSAGE Preparing classpath changed notification Java1021
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.113
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.114
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.115
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Java1021 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.116
+!MESSAGE Preparing classpath changed notification KillingTime
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.117
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.119
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.120
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP KillingTime false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.120
+!MESSAGE Preparing classpath changed notification Lesson11
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.122
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.123
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.124
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson11 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.125
+!MESSAGE Preparing classpath changed notification Lesson12
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.126
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.127
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.128
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson12 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.129
+!MESSAGE Preparing classpath changed notification Lesson13
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.131
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.132
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson13 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.133
+!MESSAGE Preparing classpath changed notification Lesson14
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.134
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.135
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.136
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson14 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.137
+!MESSAGE Preparing classpath changed notification Lesson15
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.138
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.139
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.140
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson15 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.141
+!MESSAGE Preparing classpath changed notification Lesson16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.141
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.143
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.144
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson16 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.145
+!MESSAGE Preparing classpath changed notification Lesson17
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.147
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.148
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson17 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.148
+!MESSAGE Preparing classpath changed notification Lesson18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.150
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.151
+!MESSAGE buffering callback sts4.classpath.jPWqhIoP Lesson18 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.152
+!MESSAGE executing callback sts4.classpath.jPWqhIoP 14 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 15:58:55.197
+!MESSAGE executing callback sts4.classpath.jPWqhIoP SUCCESS [終了しました]
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-09-09 16:32:52.684
+!MESSAGE http://download.eclipse.org/technology/m2e/releases/ のリポジトリーが見つかりません。
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-09-09 16:32:56.855
+!MESSAGE プロビジョニング例外
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: http://download.eclipse.org/webtools/repository/latest/releases のリポジトリーが見つかりません。
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:700)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:676)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-09-09 16:32:56.862
+!MESSAGE http://download.eclipse.org/webtools/repository/latest/releases のリポジトリーが見つかりません。
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-09-09 16:33:00.705
+!MESSAGE プロビジョニング例外
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: http://download.eclipse.org/webtools/repository/latest/releng のリポジトリーが見つかりません。
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:700)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:676)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-09-09 16:33:00.706
+!MESSAGE http://download.eclipse.org/webtools/repository/latest/releng のリポジトリーが見つかりません。
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2022-09-09 16:33:46.474
+!MESSAGE Exception in update check thread
+!STACK 0
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:90)
+
+!ENTRY org.eclipse.ui 2 2 2022-09-09 17:05:17.758
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 21:19:56.832
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jPWqhIoP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 21:19:56.834
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jPWqhIoP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 21:19:56.834
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-09-09 21:19:56.835
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jPWqhIoP => OK

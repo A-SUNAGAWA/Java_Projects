@@ -1,8 +1,13 @@
 package arkNightsGatya;
 
 public class Rare6_Gentei {
-	String genteiName = "限定";
-	String medamaName = "ピックアップ";
+	String genteiName;
+	String medamaName;
+
+	public Rare6_Gentei(String gName, String mName){
+		this.genteiName = gName;
+		this.medamaName = mName;
+	}
 
 	public void GenteiHantei(){
 		int per = new java.util.Random().nextInt(100);
