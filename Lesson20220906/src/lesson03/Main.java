@@ -6,7 +6,11 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+
+		int playerWin = 0;
+		int cpuWin = 0;
 		System.out.println("じゃんけんゲーム");
+
 		while(true) {
 			System.out.println("じゃ～んけ～ん");
 			System.out.println("1:グー 2:チョキ 3:パー それ以外:終了");
@@ -34,10 +38,20 @@ public class Main {
 				continue;
 			}else if(result == -1 || result == 2) {
 				System.out.println("あなたの負け！");
-				continue;
+				cpuWin++;
+				if(cpuWin >= 3) {
+					System.out.println("cpuが3回勝ちました！");
+					break;
+				}else
+					continue;
 			}else {
 				System.out.println("あなたの勝ち！");
-				continue;
+				playerWin++;
+				if(playerWin >= 3) {
+					System.out.println("あなたが3回勝ちました！");
+					break;
+				}
+					continue;
 			}
 
 		}
