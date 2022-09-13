@@ -17,7 +17,7 @@ public class Main {
 
 			int playerChose = new Scanner(System.in).nextInt();
 
-			if(playerChose <= 0 || playerChose - 3 > 0) {
+			if(playerChose <= 0 || playerChose > 3) {
 				System.out.println("終了");
 				break;
 			}
@@ -42,16 +42,18 @@ public class Main {
 				if(cpuWin >= 3) {
 					System.out.println("cpuが3回勝ちました！");
 					break;
-				}else
+				}else {
 					continue;
+				}
 			}else {
 				System.out.println("あなたの勝ち！");
 				playerWin++;
 				if(playerWin >= 3) {
 					System.out.println("あなたが3回勝ちました！");
 					break;
-				}
+				}else {
 					continue;
+				}
 			}
 
 		}
