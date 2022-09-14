@@ -13,9 +13,6 @@ public class Main4 {
 		int num3 = new Random().nextInt(10);
 		int num4 = new Random().nextInt(10);
 
-//		int num1,num2,num3,num4;
-//		num1 = num2 = num3 = num4 = new Random().nextInt(10);
-
 		max = Math.max(Math.max(num1, num2), Math.max(num3, num4));
 		min = Math.min(Math.min(num1, num2), Math.min(num3, num4));
 

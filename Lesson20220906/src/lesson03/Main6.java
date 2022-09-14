@@ -7,7 +7,7 @@ public class Main6 {
 		int day = 1;
 
 		for(int rows=0;rows<6;rows++) {
-			for(int youbi=0;youbi<7;youbi++) {
+			for(int columns=0;columns<7;columns++) {
 				if(rows == 0) {
 					System.out.print("日 月 火 水 木 金 土");
 					break;
@@ -16,7 +16,7 @@ public class Main6 {
 					break;
 				}
 				if(rows == 1) {
-					if(youbi >= 4) {
+					if(columns >= 4) {
 						System.out.print(day++ + "  ");
 					}else {
 						System.out.print("   ");
