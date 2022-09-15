@@ -10,7 +10,7 @@ public class Rensyu3_2 {
 		String word = "";
 		switch(choise) {
 		case 0:
-			word += "while(i>=100200999L)";
+			word += "while(i<=100200999L)";
 			break;
 		case 1:
 			word += "\n    input().YOU_AN_IDIOT.;";
