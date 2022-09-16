@@ -8,7 +8,97 @@
 		<item key="linkWithEditor" value="false"/>
 	</section>
 	<section name="javadoc">
+		<item key="javadoc_command_history" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\java\11\bin\javadoc.exe"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="protected"/>
+		<item key="use" value="false"/>
+		<item key="author" value="false"/>
+		<item key="version" value="false"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="false"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="11"/>
+		<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson20220906\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson20220906\doc"/>
 		<item key="additionalparam" value="-encoding UTF-8&#x0D;&#x0A;-charset UTF-8"/>
+		<section name="projects">
+			<section name="Java1021">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Java1021\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Java1021\javadoc.xml"/>
+			</section>
+			<section name="Lesson20220906">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson20220906\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson20220906\javadoc.xml"/>
+			</section>
+			<section name="KillingTime">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\KillingTime\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\KillingTime\javadoc.xml"/>
+			</section>
+			<section name="Lesson12">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson12\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson12\javadoc.xml"/>
+			</section>
+			<section name="Lesson14">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson14\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson14\javadoc.xml"/>
+			</section>
+			<section name="Lesson16">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson16\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson16\javadoc.xml"/>
+			</section>
+			<section name="Lesson18">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson18\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson18\javadoc.xml"/>
+			</section>
+			<section name="Java1019">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Java1019\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Java1019\javadoc.xml"/>
+			</section>
+			<section name="Lesson11">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson11\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson11\javadoc.xml"/>
+			</section>
+			<section name="Lesson13">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson13\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson13\javadoc.xml"/>
+			</section>
+			<section name="Lesson15">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson15\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson15\javadoc.xml"/>
+			</section>
+			<section name="Lesson17">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson17\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\Lesson17\javadoc.xml"/>
+			</section>
+			<section name="AnimalPlanet">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\AnimalPlanet\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\AnimalPlanet\javadoc.xml"/>
+			</section>
+			<section name="RensyuProject">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\RensyuProject\doc"/>
+				<item key="antpath" value="C:\Users\user\Downloads\pleiades-2019-12-java-win-64bit-jre_20200213\pleiades\workspace\RensyuProject\javadoc.xml"/>
+			</section>
+		</section>
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
@@ -47,5 +137,12 @@
 		<item key="patterns" value="*"/>
 	</section>
 	<section name="RenameInformationPopup">
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="327"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="729"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
 	</section>
 </section>
