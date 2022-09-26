@@ -12,7 +12,7 @@ public class Q4 {
 	}
 
 	public static boolean isZoro(int n){
-		if(n < 9){
+		if(n <= 9){
 			return false;
 		}
 		char[] arr = String.valueOf(n).toCharArray();
@@ -22,6 +22,6 @@ public class Q4 {
 				return false;
 			}
 		}
-			return true;
+		return true;
 	}
 }
